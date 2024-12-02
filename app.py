@@ -4,7 +4,7 @@ import toml
 
 secrets = toml.load("streamlit/secrets.toml")
 
-st.title("Chat Bot (GPT-3.5)")
+st.title("MedMate")
 
 openai.api_key = secrets["OPENAI_API_KEY"]
 
